@@ -1,0 +1,306 @@
+
+#head {
+background-color: white;
+font-family: 'Montserrat', sans-serif;
+padding-top: 20px;
+display: inline;
+position: fixed;
+padding-bottom: 20px;
+width: 100%;
+z-index: 1000;
+}
+#head a{
+font-family: 'Montserrat', sans-serif;
+font-size: 85%;
+padding-top: 10px;
+padding-left: 20px;
+padding-right: 20px;
+text-decoration: none;
+color: #387BAB;
+}
+#head a:hover{
+    color:#32709c;
+}
+#head a:active{
+    color: #303853;
+    text-decoration: solid #7baed3 10px;
+    border-bottom: 2px solid #576366;
+}
+ 
+#button{
+    background: linear-gradient(to bottom, #008298 0%, #007589 100%);
+    color: white;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    font-size: 85%;
+
+}
+#button:hover{
+    background: #303853;
+}
+
+#in{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 40%;
+    bottom: 50%;
+    left: 10%;
+}
+#in1{
+    font-weight: lighter;
+    font-size: 24px;
+}
+#in2{
+    font-size: 3.6vw;
+    font-weight: bold;
+}
+#sign{
+    
+    background-color: #2d3339;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 4px 4px 0 0;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1.42vw;
+    position: absolute;
+    top: 235px;
+    left: 20.2vw;
+    padding: 24px;
+    margin: -32px -32px 32px;
+    line-height: 1.5;
+    padding-left: 7.5vw;
+    padding-right: 7.5vw;
+}
+#mail{
+    float: inline-end;
+    color: #303853;
+    padding: 40px;
+    background-color: white;
+    position: absolute;
+    top: 470%;
+    left: 22%;
+    width: 38.35vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.click{
+    background: linear-gradient(to bottom, #008298 0%, #007589 100%);
+    color: white;
+    padding: 3px;
+    font-size: 120%;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    line-height: 40px;
+    margin-top: 10px;
+    border: transparent;
+}
+.input{
+    background-color:rgb(242, 245, 248);
+    border-radius: 5px;
+    line-height: 40px;
+    float: left;
+    border: 2px solid rgb(209, 208, 208);
+    margin-top: 10px;
+}
+.input:hover{
+    border-radius: 5px;
+    line-height: 40px;
+    float: left;
+    border: 2px solid rgb(158, 157, 157);
+    margin-top: 10px;
+}
+.input:active{
+    border-radius: 5px;
+    line-height: 40px;
+    float: left;
+    border: 4px solid rgb(136, 135, 135);
+    margin-top: 10px;
+}
+.click:hover{
+    background: #004652;
+    color: white;
+    padding: 3px;
+    font-size: 120%;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    line-height: 40px;
+    margin-top: 10px;
+    border: transparent;
+}
+#mailin{
+    border: 2px solid rgb(209, 208, 208);
+    border-radius: 5px;
+}
+.subm{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 300px;
+}
+.subm ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.subm ul li{
+    color: #576366;
+    font-size: 180%;
+    float: left;
+    padding-bottom: 27px;
+    border-bottom: 3px solid #e4e6e7;
+}
+.subm ul li a{
+    padding-right: 85.6px;
+    padding-left: 85.6px;
+    padding-bottom: 27px;
+    text-decoration: none;
+    color: #576366;
+}
+.subm ul li a:hover,:active{
+    padding-left: 85.6px;
+    padding-right: 85.6px;
+    padding-bottom: 27px;
+    border-bottom: 3px solid #387bab;
+    color: #387BAB;
+}
+.mainc{
+    padding-left: 50px;
+    padding-top: 160px;
+}
+#cont{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    color:hsl(192, 7%, 27%);
+    text-align: center;
+    top: 308%;
+    bottom: 50%;
+    left: 25%;
+}
+#cont a{
+    text-decoration: none;
+    background: #016e81	;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 33px;
+    padding-right: 33px;
+    border-radius: 5px;
+}
+#cont a:hover{
+    background-color: #033f49;
+}
+.line{
+    width: 350px; 
+    margin-left: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.picture{
+    margin-top: 100px;
+    position: relative;
+        top: 0;
+        left: 0;
+}
+.im1{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 490px;
+}
+.im2{
+    position: absolute;
+    top: 80px;
+    left: 90px;
+    height: 330px;
+}
+#misc1{
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    width: 600px;
+    margin-left: 15px;
+    margin-top: 50px;    
+}
+#misc1 a{
+    width: fit-content;
+    color: white;
+    background: #016e81;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#misc1 a:hover{
+    background-color: #033f49;
+}
+#testimonial{
+    padding-top: 6vw;
+    margin: auto;
+    width: 60vw;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #40484a;
+    font-size: 1.3vw;
+}
+#p1{
+    float: right;
+    padding-left: 5vw;
+    padding-top: 4vw;
+    text-align: left;
+}
+#p1 a{
+    text-decoration: none;
+    background-color: #016e81;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+#bottom{
+    background: #EDEFF0;
+    font-family: 'Montserrat', sans-serif;
+    color: #576366;
+    padding-left: 50px;
+    padding-top: 60px;
+    padding-right: 30px;
+    padding-bottom: 80px;
+}
+#bottom a{
+    text-decoration: none;
+    color: white;
+    background: #016e81;
+    margin-left: 40vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+}
+#bottom a:hover{
+    background: #2d3339;
+}
+td a{
+    text-decoration: none;
+    color: #387bab;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+td{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
